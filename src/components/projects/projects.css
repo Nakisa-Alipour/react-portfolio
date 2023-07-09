@@ -23,12 +23,6 @@
 }
 
 
-.projects-section .image-container {
-    position: relative;
-    margin: 20px;
-}
-
-
 .projects-section .image-container:hover {
     display: block;
 }
