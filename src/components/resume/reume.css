@@ -33,3 +33,9 @@
     list-style-type: circle; 
     padding-left: 10px;
 }
+
+@media (max-width: 1235px) {
+    .resume-section {
+      width: 80%;
+    }
+}

@@ -1,8 +1,11 @@
 import React from 'react';
+import './projects.css';
+import '../style.css';
+
 
 function Projects () {
     return (
-        <section id="projects">
+        <section id="projects" class="projects-section">
             <h1 class="h1-class">Projects</h1>
             <p>Somethings I've built:</p>
             <br></br>

@@ -21,4 +21,10 @@
     color: rgb(19, 160, 54);
     padding: 10px 0px;
   }
+
+  @media (max-width: 1235px) {
+    .about-section {
+      width: 80%;
+    }
+  }
   
