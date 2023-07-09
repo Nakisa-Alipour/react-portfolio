@@ -14,7 +14,7 @@ const Resume = () => {
                     <li>Master of Business Administration</li>
                     <li>Master of international Finance</li>
                     <li>Bachelor of Software Engineering</li>
-                    <li>Monash Bootcamp Full-stack development</li>
+                    <li>Monash Bootcamp Full-stack Web Development</li>
                 </ul>
 
             <br></br>
@@ -38,9 +38,9 @@ const Resume = () => {
                     <li>APIs</li>
                     <li>NodeJS</li>
                     <li>Express</li>
-                    <li>Model View Controller (MVC)</li>
+                    <li>Model View Controller</li>
                     <li>REST</li>
-                    <li>Progressive Web Applications (PWA)</li>
+                    <li>Progressive Web Applications</li>
                 </ul>
             <br></br>
             <h2 class="h2-class">Dev Tool Proficiencies</h2>
