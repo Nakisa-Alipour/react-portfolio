@@ -1,5 +1,6 @@
 
 .about-section {
+    flex: 9;
     background-color: rgb(15, 15, 77);
     color: rgb(136, 167, 194);
     display: flex;
