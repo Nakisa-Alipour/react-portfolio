@@ -1,17 +1,19 @@
 import React from 'react';
+import 'components/style/Header.css'; 
+import 'components/style/Style.css'; 
 
 function Header() {
     return (
-      <header class="top-header">
+      <header className="top-header">
       <div id="intro">
-          <h4 class="h4-class">Hello, my name is</h4>
-          <h1 class="h1-class">Nakisa Alipour.</h1>  
-          <h4 class="h4-class">And Im a full-stack web developer.</h4>
+          <h4 className="h4-class">Hello, my name is</h4>
+          <h1 className="h1-class">Nakisa Alipour.</h1>  
+          <h4 className="h4-class">And Im a full-stack web developer.</h4>
       </div>
       <div id="avatar">
-          <img src="./Assets/Avatar.png" alt="nakisa's avatar"/>
+          <img src="assets/Avatar.png" alt="nakisa's avatar"/>
       </div>
-      <nav class="navigation">
+      <nav className="navigation">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#resume">Resume</a>

@@ -1,0 +1,52 @@
+.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-bottom: 0px;
+    background-color: #070331;
+  }
+  
+  #intro {
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .h4-class {
+    color: rgb(136, 167, 194);
+  }
+  
+  .h1-class {
+    color: rgb(24, 146, 150);
+    padding: 10px 0px;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  
+  #avatar {
+    flex: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .navigation {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #070331;
+    justify-content: flex-end;
+  }
+  
+  .navigation a {
+    color: rgb(24, 146, 150);
+    padding: 10% 5%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: aqua;
+    font-weight: bolder;
+  }
+  
