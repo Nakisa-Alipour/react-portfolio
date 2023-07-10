@@ -1,12 +1,12 @@
 import React from 'react';
-import './about.css';
-import '../style.css';
+import 'components/style/about.css'; 
+import 'components/style/style.css'; 
 
 const About = () => {
     return (
         <section id="about" className="about-section">
             
-        <h1 class="h1-class">About</h1>
+        <h1 className="h1-class">About</h1>
         <p>Hello and welcome to my portfolio! My name is Nakisa Alipour, 
             and I am a new full-stack developer with a Bachelor of Software Engineering, 
             an MBA, and experience in international finance. </p>

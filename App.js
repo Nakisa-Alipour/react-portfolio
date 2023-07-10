@@ -1,11 +1,11 @@
 
 import React, { useState } from "react";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import About from "./components/about";
-import Projects from "./components/projects";
-import Contact from "./components/contact";
-import Resume from "./components/resume";
+import Header from "components/header";
+import Footer from "components/footer";
+import About from "components/about";
+import Projects from "components/projects";
+import Contact from "components/contact";
+import Resume from "components/resume";
 
 function App() {
 	const [currentTab, setCurrentTab] = useState("about");
