@@ -1,15 +1,15 @@
 import React from 'react';
-import './resume.css';
-import '../style.css';
+import 'components/style/Resume.css';
+import 'components/style/Style.css';
 
 const Resume = () => {
     return (
         <section id="resume" className="resume-section">
-            <h1 class="h1-class">Resume</h1>
+            <h1 className="h1-class">Resume</h1>
 
             <br></br>
 
-            <h2 class="h2-class2">Education: </h2>
+            <h2 className="h2-class2">Education: </h2>
                 <ul>
                     <li>Master of Business Administration</li>
                     <li>Master of international Finance</li>
@@ -19,7 +19,7 @@ const Resume = () => {
 
             <br></br>
 
-            <h2 class="h2-class2">Skills: </h2>
+            <h2 className="h2-class2">Skills: </h2>
             <br></br>
             <h2 class="h2-class">Front-End Proficiencies</h2>
                 <ul>
@@ -33,7 +33,7 @@ const Resume = () => {
                     <li>responsive design</li>
                 </ul>
             <br></br>
-            <h2 class="h2-class">Back-End Proficiencies</h2>
+            <h2 className="h2-class">Back-End Proficiencies</h2>
                 <ul>
                     <li>APIs</li>
                     <li>NodeJS</li>
@@ -43,7 +43,7 @@ const Resume = () => {
                     <li>Progressive Web Applications</li>
                 </ul>
             <br></br>
-            <h2 class="h2-class">Dev Tool Proficiencies</h2>
+            <h2 className="h2-class">Dev Tool Proficiencies</h2>
                 <ul>
                     <li>Git</li>
                     <li>npm</li>
@@ -51,7 +51,7 @@ const Resume = () => {
                     <li>Webpack</li>
                 </ul>
             <br></br>
-            <h2 class="h2-class">Database Proficiencies</h2>
+            <h2 className="h2-class">Database Proficiencies</h2>
                 <ul>
                     <li>MySQL</li>
                     <li>Sequelize</li>

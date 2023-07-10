@@ -61,4 +61,10 @@
     margin-top: 5px;
   }
   
+
+  @media (max-width: 1235px) {
+    #contact {
+      width: 80%;
+    }
+  }
   

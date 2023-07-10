@@ -5,7 +5,7 @@ import 'components/style/Style.css';
 
 function Projects () {
     return (
-        <section id="projects" class="projects-section">
+        <section id="projects">
             <h1 className="h1-class">Projects</h1>
             <p>Somethings I've built:</p>
             <br></br>
