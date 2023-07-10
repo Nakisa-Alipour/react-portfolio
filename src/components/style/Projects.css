@@ -1,4 +1,4 @@
-.projects-section {
+#projects {
     flex: 9;
     background-color: rgb(15, 15, 77);
     color: rgb(136, 167, 194);
@@ -10,7 +10,7 @@
     margin: 30px 50px;
 }
 
-.projects-section .h1-class {
+#projects .h1-class {
     color: rgb(24, 146, 150);
     padding: 10px 0px;
     font-weight: bolder;
@@ -18,24 +18,24 @@
 }
 
 
-.projects-section .images {
+#projects.images {
     padding-bottom: 20px;
 }
 
 
-.projects-section .image-container:hover {
+#projects .image-container:hover {
     display: block;
 }
 
 
-.projects-section p {
+#projects p {
     margin: 10px;
     line-height: 1.5;
 }
 
 
 
-.projects-section .small-image {
+#projects .small-image {
     flex: 1 0 200px;
     padding: 2%;
     border: 2px solid rgb(24, 146, 150);
@@ -45,14 +45,14 @@
     margin-top: 20px;
 }
 
-.projects-section figcaption {
+#projects figcaption {
     color: rgb(211, 211, 75);
     font-weight: bold;
     text-align: center;
 }
 
 @media (max-width: 1235px) {
-    .projects-section {
+    #projects {
       width: 80%;
     }
 }
