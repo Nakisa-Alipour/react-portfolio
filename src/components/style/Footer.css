@@ -31,3 +31,11 @@ footer {
     display: block;
   }
   
+  @media (max-width: 488px) {
+    footer {
+      width: 100%;
+      flex:auto;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
