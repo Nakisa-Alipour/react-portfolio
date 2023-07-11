@@ -1,6 +1,6 @@
 import React from 'react';
-import 'components/style/Resume.css';
-import 'components/style/Style.css';
+import '../../components/style/Resume.css';
+import '../../components/style/Style.css';
 
 const Resume = () => {
     return (
