@@ -26,7 +26,7 @@ function Projects () {
                     <figcaption>Five Day Weather Dashboard</figcaption>
                 </figure>
                 <figure>
-                    <a href="https://note-taker-heroku-app.herokuapp.com/"><img className="small-image" src="assets/projects-images/Note taker.jpg" alt="white page background with blue Note Taker header"/></a>
+                    <a href="https://note-taker-heroku-app.herokuapp.com/"><img className="small-image" src={require("assets/projects-images/Note taker.jpg")} alt="white page background with blue Note Taker header"/></a>
                     <figcaption>Note Taker</figcaption>
                 </figure>
                 <figure>

@@ -1,8 +1,7 @@
 import React from 'react';
-import '../../components/style/Footer.css';
-import '../../components/style/Style.css';
 
-const Footer = () => {
+
+function Footer() {
   return (
     <footer>
       <div className="image-container">
