@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <h4 className="h4-class">And Im a full-stack web developer.</h4>
         </div>
         <div id="avatar">
-            <img src="./assets/Avatar.png" alt="nakisa's avatar"/>
+            <img src={require("assets/Avatar.png")} alt="nakisa's avatar"/>
         </div>
       <ul className="navigation">
         <li>

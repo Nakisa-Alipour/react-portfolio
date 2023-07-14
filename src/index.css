@@ -86,7 +86,7 @@
     padding-bottom: 20px;
   }
   
-  footer {
+  .footer {
     flex: 1;
     background-color: #1a0f96;
     padding: 5px 5px 10px 10px;
@@ -103,7 +103,7 @@
   
   .info-box {
     display:none;
-    left: 100%;
+    left: 50%;
     top: 10%;
     position:absolute;
     width: 200px;

@@ -4,6 +4,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 
 export default function PortfolioContainer() {
@@ -20,7 +21,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <p>Page not found</p>;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -28,7 +32,10 @@ export default function PortfolioContainer() {
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <main>
+        {renderPage()}
+      </main>
+      <Footer />
     </div>
   );
 }

@@ -24,7 +24,7 @@ const About = () => {
             Thank you for taking the time to view my portfolio, and I look forward to 
             hearing from you soon!</p>
             
-    </section>  
+        </section>  
     );
 }
 
