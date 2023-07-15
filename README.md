@@ -1,14 +1,17 @@
-# 20 React: React Portfolio
+# React Portfolio
 
-## Your Task
+This is a portfolio website built using React, showcasing the work samples of a web developer. The purpose of this project is to provide a platform for developers to share their projects and collaborate with other developers.
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
+The application is deployed to GitHub Pages, following the instructions in the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). The deployed application's build is hosted on the `gh-pages` branch.
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
-
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-
-**Important**: Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+## Table of Contents
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Link to deployed application](#Link-to-deployed-application) 
 
 ## User Story
 
@@ -16,7 +19,6 @@ You’ll deploy this application to GitHub Pages. Follow the instructions in the
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
-```
 
 ## Acceptance Criteria
 
@@ -46,117 +48,69 @@ WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+
 ```
 
-## Mock-Up
+[🔼back to table of contents ](#table-of-contents)
 
-The following animation shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+## Installation
 
-## Getting Started
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory:` cd react-portfolio`
+3. Install the dependencies: ` npm install `
 
-You’ll use `create-react-app` to build your portfolio, which will include the following:
 
-* A single `Header` component that appears on multiple pages
+[🔼back to table of contents ](#table-of-contents)
 
-* A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
 
-* A single `Project` component that will be used multiple times in the Portfolio section
+## Usage
 
-* A single `Footer` component that appears on multiple pages
+To start the development server, run the following command: ` npm start `
+Open your browser and visit http://localhost:3000 to view the portfolio.
 
-**Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
 
-### Projects
+[🔼back to table of contents ](#table-of-contents)
 
-For each project that is featured in your portfolio, include the following:
 
-* An image of the deployed application (either a short animated GIF or screenshot)
+## Features
 
-* The title of the project
+- Header with developer's name and navigation links to different sections of the portfolio.
+- Navigation highlights the current section.
+- Sections include About Me, Portfolio, Contact, and Resume.
+- Clicking on a navigation title updates the corresponding section without page reloading.
+- Default selection of About Me section on initial load.
+- About Me section displays a recent photo or avatar of the developer and a short bio.
+- Portfolio section showcases titled images of six applications with links to the deployed applications and corresponding GitHub repositories.
+- Contact section includes a contact form with fields for name, email address, and message.
+- Validation and notifications for required fields and invalid email address.
 
-* A link to the deployed application
+  screenshot of first page:
+  
+  ![React Portfolio](https://github.com/Nakisa-Alipour/react-portfolio/assets/124220654/b0850df6-81d1-44b4-b8ef-5404f4d99a9f)
 
-* A link to the corresponding GitHub repository
 
-### Design
 
-As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
+[🔼back to table of contents ](#table-of-contents)
 
-* Use mobile-first design.
 
-* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
+## Contributing
 
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes
+4. Commit your changes with descriptive commit messages
+5. Push your changes to your forked repository
+6. Submit a pull request explaining your changes
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+[🔼back to table of contents ](#table-of-contents)
 
-This Challenge is graded based on the following criteria:
 
-### Technical Acceptance Criteria: 40%
+## Link to deployed application:
+https://nakisa-alipour.github.io/react-portfolio/ 
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+[🔼back to table of contents ](#table-of-contents)
 
-    * Application must use React to render content.
-
-    * Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
-
-    * Application has a single `Project` component that’s used multiple times in the Portfolio section.
-
-    * Application has a single `Footer` component that appears on multiple pages.
-
-    * Application must be deployed to GitHub Pages.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application uses a color scheme other than the default Bootstrap color palette.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains high-quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
