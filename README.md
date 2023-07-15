@@ -11,7 +11,7 @@ The application is deployed to GitHub Pages, following the instructions in the [
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
+- [Link to deployed application](#Link-to-deployed-application) 
 
 ## User Story
 
@@ -63,14 +63,15 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 [🔼back to table of contents ](#table-of-contents)
 
-```
 
 ## Usage
 
 To start the development server, run the following command: ` npm start `
 Open your browser and visit http://localhost:3000 to view the portfolio.
 
-```
+
+[🔼back to table of contents ](#table-of-contents)
+
 
 ## Features
 
@@ -84,10 +85,14 @@ Open your browser and visit http://localhost:3000 to view the portfolio.
 - Contact section includes a contact form with fields for name, email address, and message.
 - Validation and notifications for required fields and invalid email address.
 
+  screenshot of first page:
+  
+  ![React Portfolio](https://github.com/Nakisa-Alipour/react-portfolio/assets/124220654/b0850df6-81d1-44b4-b8ef-5404f4d99a9f)
+
+
 
 [🔼back to table of contents ](#table-of-contents)
 
-```
 
 ## Contributing
 
@@ -103,11 +108,9 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 [🔼back to table of contents ](#table-of-contents)
 
-```
 
 ## Link to deployed application:
 https://nakisa-alipour.github.io/react-portfolio/ 
 
 [🔼back to table of contents ](#table-of-contents)
 
-```
