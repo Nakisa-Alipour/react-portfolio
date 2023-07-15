@@ -1,18 +1,21 @@
+// Import the necessary module
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
-
+// Define the ontact component
 const Contact = () => {
+    // State variables for form inputs and error message
     const [formState, setFormState] = useState({
         name: "",
         email: "",
         message: "",
     });
-
+ 
     const [errorMessage, setErrorMessage] = useState("");
 
     const { name, email, message } = formState;
 
+    // Function to handle input changes
     const handleChange = (e) => {
         if (e.target.name === "email") {
             const isValid = validateEmail(e.target.value);
@@ -32,6 +35,7 @@ const Contact = () => {
         }
     };
 
+    // Function to handle blank fields
     const handleBlank = (e) => {
         if (e.target.name === "Name" || e.target.name === "Message") {
             if (!e.target.value.length) {
@@ -46,6 +50,7 @@ const Contact = () => {
         }
     };
 
+    // Function to handle form submission
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!name.trim()) {
@@ -117,4 +122,5 @@ const Contact = () => {
     );
 };
 
+// Export the Contact component as the default export
 export default Contact;

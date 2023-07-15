@@ -1,7 +1,8 @@
+// Import the necessary module
 import React from 'react';
 
 
-
+// Define the Projects component
 function Projects () {
     return (
         <section id="projects">
@@ -39,4 +40,5 @@ function Projects () {
     );
 }
 
+// Export the Projects component as the default export
 export default Projects;

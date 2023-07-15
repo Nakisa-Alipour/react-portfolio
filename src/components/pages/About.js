@@ -1,5 +1,7 @@
+// Import the necessary module
 import React from 'react';
 
+// Define the About component
 const About = () => {
     return (
         <section id="about" className="about-section">
@@ -28,4 +30,5 @@ const About = () => {
     );
 }
 
+// Export the About component as the default export
 export default About;

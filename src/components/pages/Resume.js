@@ -1,6 +1,7 @@
+// Import the necessary module
 import React from 'react';
 
-
+// Define the Resume component
 const Resume = () => {
     return (
         <section id="resume" className="resume-section">
@@ -65,4 +66,5 @@ const Resume = () => {
     );
 }
 
+// Export the Resume component as the default export
 export default Resume;

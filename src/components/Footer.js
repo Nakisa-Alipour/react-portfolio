@@ -1,5 +1,7 @@
+// Import the necessary module
 import React from 'react';
 
+// Define the Footer component
 function Footer() {
   return (
     <div className="footer">
@@ -23,5 +25,6 @@ function Footer() {
   );
 }
 
+// Export the Footer component as the default export
 export default Footer;
 
